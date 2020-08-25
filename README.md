@@ -3,7 +3,7 @@ d# Project_2 (Day 3)
 Bitcoin_Sentiment Analysis and Trade Signal Evaluation 
 -  Adjustments 
 
-## Alex Water, Joe Swiderski,  Ivan Tatum
+## Alex Waters, Joe Swiderski,  Ivan Tatum
 
 - Exploring the Sentiment Analysis to Explain the Predictive Power of Bitcoin and to see if the trading signals can be used to make investment decisions. 
 
