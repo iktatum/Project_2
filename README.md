@@ -1,5 +1,5 @@
 # Project #2 Final Analysis
-  Bitcoin_Sentiment Analysis and Trade Signal Evaluation 
+  Bitcoin Sentiment Analysis and Trade Signal Evaluation 
 
 ## Group Members: Alex Waters, Joe Swiderski,  Ivan Tatum
 
