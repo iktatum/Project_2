@@ -6,13 +6,16 @@
 * We are looking to attempt to determine if we can predict bitcoin prices using the fear and greed index as a proxy for sentiment analysis. Are we bale to make buy or sell decisions in bitcoing to take advantage of price moves.
 
 * Gathering Data 
-  - Obtain bitcoin price, S&P , and bitcoin volume as feathure to evaluate. This data was o btain from Google Sheets and Yahoo.
+
+  - Obtain bitcoin price, S&P, 500 and bitcoin volume as feathure to evaluate. This data was o btain from Google Sheets and Yahoo.
   - We had to use the TWitter API (TWeepy) to download twitter feeds.
   - Score these tweets for positive, negagtive, or neutral sentiment 
-  - Use VADER, IBM Watson, FNG to produce scores 
+  - Use VADER, IBM Watson, FNG to produce sentiment scores 
+  - CCreated a dashboard to evaluate the fear and greed index scores in rela time using as much data as will feed into the program (300 tweets every 5 minutes)
 
 * Getting reliable data was the first item to tackle. We eventually used data from February 2018 to Current because of the availability of free data to pull.  In the data training process, we used the LSTM and SARIMAX models to evaluate how well the models predicted the bitcoin price. ONce the data was trained by these models, using 70% of the data and testing the data with the remining 30%, we could get evaluate the predictive ability of the model.
 
+### MOdels 
 * We used the Long short-term memory recurrent neural network(LSTM RNN) which is helpful in making prediction with time series data. 
 * We chose to use the closing price of bitcoing to predict future results. 
 * We used the model with window =1,5,10.  Due to the volitility in Bitcoin the smallest window left us with the best outcomes.
