@@ -1,4 +1,4 @@
-d# Project_2 (Day 3) 
+Project #2 Final Results 
 
 Bitcoin_Sentiment Analysis and Trade Signal Evaluation 
 -  Adjustments 
@@ -8,11 +8,18 @@ Bitcoin_Sentiment Analysis and Trade Signal Evaluation
 - Exploring the Sentiment Analysis to Explain the Predictive Power of Bitcoin and to see if the trading signals can be used to make investment decisions. 
 
 
-## We made the following changes to our project.
+* We are looking to attempt to detremine if we can predict bitcoin prices using the fear and greed index as a proxy for sentiment analysis. Are we bale to make buy or sell decisions in bitcoing to take advantage of price moves.
 
-- We had to use a different proxy for sentiment for Fear and Greed (aka FNG) as a proxy for twitter sentiment.
-- Data available from 02/01/2018 to Current. Price data went back to 2015, but we had to truncate the the data to reflect the overlap
-- We will Correlate the Fear and Greed Index with BTC closing price.
-- Twitter sentiment will be modeled using available data (7 days)
-- VADER, TextBlob, IBM Watson Sentiment Analyzers
-- (NEw) Tweepy – download day’s worth of tweets     
+* Gathering Data 
+  - Obtain bitcin price, S&P , and bitcoin volume as feathure to evaluate. This data was o btain from Google Sheets and Yahoo.
+  - We had to use the TWitter API (TWeepy) to download twitter feeds.
+  - Score these tweets for positive, negagtive, or neutral sentiment 
+  - Use VADER, IBM Watson, FNG to produce scores 
+
+* [ ] Describe the data preparation and model training process.
+
+* [ ] Describe the techniques used to evaluate the model performance.
+
+* [ ] Summarize your conclusions and predictions. This should include a numerical summary (what data your model yielded), as well as visualizations of that summary (plots of the final model evaluation and predictions).
+
+* [ ] Discuss the implications of your findings. This is where you get to have an open-ended discussion about what your findings mean.
